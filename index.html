@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js" defer></script>
+    <title>Tic-Tac-Toe - CodeBrainer</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Reset button in the top left corner -->
+        <button id="resetButtonTopLeft" class="reset-button">Reset</button>
+
+        <div class="game-container">
+            <div class="board" id="board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+        </div>
+
+        <!-- Reset button in the winning message container -->
+        <div class="winning-message" id="winningMessage">
+            <div id="winningMessageText"></div>
+            <button id="restartButton" class="reset-button">Restart</button>
+        </div>
+    </div>
+</body>
+</html>
